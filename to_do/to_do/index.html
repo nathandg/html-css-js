@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>TO DO</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <!-- choose one -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+  </head>
+  <body>
+    <main>
+      <div id="todo">
+        <div id="title">
+          <h1>My ToDo List</h1>
+          <i id="title-icon" data-feather="edit"></i>
+        </div>
+    
+          <div id="insert-task">
+            <input type="text" id="insert-text" placeholder=" Add a task..." />
+            <a>
+              <i id="insert-icon" data-feather="plus"></i>
+            </a>
+          </div>
+        
+        <div id="tasks">
+        </div>
+
+        <div id="infos">
+          <div class="info">
+            <i id="info-icon" data-feather="check"></i>
+            <p>Tarefas finalizadas: <span id="tarefas-finalizadas">0</span></p>
+          </div>
+          <div class="info">
+            <i id="info-icon" data-feather="alert-circle"></i>
+            <p>Tarefas pendentes: <span id="tarefas-pendentes">0</span></p>
+          </div>
+        </div>
+        
+      </div>
+    </main>
+  </body>
+  <script src="main.js"></script>
+</html>

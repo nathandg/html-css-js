@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  /* background-color: #0d1117; */
+  background-color: #161b22;
+  color: aliceblue;
+  justify-content: center;
+}
+
+main {
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: aliceblue;
+}
+
+#title {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  gap: 30px;
+}
+
+#title h1 {
+  font-size: 50px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+#title-icon {
+  width: 50px;
+  height: 35px;
+}
+
+#avatares {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 15px;
+}
+
+.avatar {
+  height: 90px;
+  border-radius: 50%;  
+}
+
+#insert-task {
+  box-sizing: border-box;
+  width: 440px;
+  padding: 1px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 70px;
+}
+
+#username-input {
+  box-sizing: border-box;
+  padding-left: 10px;
+  width: 400px;
+  height: 40px;
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+}
+
+#insert-icon {
+  box-sizing: border-box;
+  width: 35px;
+  height: 40px;
+  padding: 5px;
+  color: white;
+  background-color: black;
+}
+
+#repos-list {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80vw;
+  max-width: 1000px;
+  
+}
+
+.repo {
+
+  width: 100%;
+  border-top: 1px solid #30363d;
+  font-family: 'Courier New', Courier, monospace;
+  color: #58a6ff;
+  display: flex;
+  padding: 50px;
+  justify-content: space-between;
+
+}
+
+.repo #title {
+
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.4rem;
+  color: #23c754;
+
+}

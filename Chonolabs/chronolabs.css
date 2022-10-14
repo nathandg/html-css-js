@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Roboto:wght@700&display=swap');
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.background {
+  background-color: #0c2e551f;
+  color: #c9d1d9;
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  margin: 25vh 20vw;
+  background-color: #2b3747;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 60vw;
+  height: 50vh;
+  border-radius: 50px;
+}
+
+.main h1 {
+    
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+}
+
+.display {
+
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 90%;
+
+}
+
+.display .horas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+}
+
+.display .minutos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+}
+
+.display .segundos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+}
+
+.display .block {
+    font-size: 25px;
+    background: #028BA9;
+    border-radius: 10px;
+    width: 15vw;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-start {
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: #c9d1d9;
+    width: 50%;
+    height: 70px;
+    background: #028BA9;
+    border-radius: 10px; 
+}
+
+.btn-stop {
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: #c9d1d9;
+    width: 50%;
+    height: 70px;
+    background: #a95302;
+    border-radius: 10px; 
+}
+
+.btn-reset {
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: #c9d1d9;
+    width: 50%;
+    height: 70px;
+    background: #fa3f11ad;
+    border-radius: 10px; 
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Weather</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <!-- choose one -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+  </head>
+  <body>
+    <main>
+      <div id="todo">
+
+        <div id="title">
+          <h1>InfoClima</h1>
+          <i id="title-icon" data-feather="sun"></i>
+        </div>
+        
+        <div id="insert-task">
+            <input type="text" id="insert-text" placeholder="Informe a cidade !" />
+          </a>
+          
+        </div>
+        
+        <div id="sugestion">
+           
+        </div>
+        
+        <h2 id="cidade"></h2>
+        <div id="infos">
+
+          <div class="info">
+            <i class="info-icon" data-feather="droplet"></i>
+            <p>umidade <span id="humidity"></span></p>
+          </div>
+          <div class="info">
+            <i class="info-icon" data-feather="thermometer"></i>
+            <p>Temperatura <span id="temp"></span></p>
+          </div>
+          <div class="info">
+            <i class="info-icon" data-feather="wind"></i>
+            <p>Vento <span id="wind"></span></p>
+          </div>
+        </div>
+
+      </div>
+    </main>
+  </body>
+  <script src="main.js"></script>
+</html>
